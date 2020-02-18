@@ -1,0 +1,632 @@
+
+.landing-bachillerato-virtual-mobile {
+
+  background-image: url('/COV2/assets/img/textura.png');
+
+  p {
+    color: #707070;
+    font-family: 'HelveticaLt';
+    line-height: 24px;
+
+    .highlight {
+      font-family: 'HelveticaMd';
+    }
+
+    .highlightBd {
+      font-family: 'HelveticaBd';
+    }
+
+    .highlight-green {
+      color: #31AA5F;
+    }
+
+    .highlight-orange {
+      color: #F15A24;
+    }
+
+    .highlight-gray {
+      color: #707070;
+    }
+  }
+
+  .section-header {
+    color: #31AA5F;
+    font-family: 'GothamBd';
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-align: center;
+
+    &.banner-header {
+      margin-top: 20px;
+      margin-bottom: -70px;
+    }
+  }
+
+  .owl-nav {
+    display: none;
+  }
+
+  .owl-dots {
+
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+
+    .owl-dot {
+      background-color: #D9D9D9;
+      height: 10px;
+      width: 10px;
+      margin: 0 5px;
+      border-radius: 100%;
+
+      &.active {
+        background-color: #31AA5F;
+
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(129,204,71,0.5);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(129,204,71,0.5);
+        box-shadow: 0px 0px 3px 0px rgba(129,204,71,0.5);
+      }
+    }
+  }
+
+  .full-view-height-section {
+    height: 100vh;
+  }
+
+  .row-center-elements {
+    height: 100%;
+  }
+
+  .banner-section {
+
+    background-image: url('/COV2/assets/img/imgBanner.png'); 
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .row {
+      height: 100%;
+
+      .banner-description {
+        font-family: 'HelveticaMd';
+        color: #fff;
+        line-height: 19px;
+      }
+
+    }
+    
+  }
+
+  .form-section {
+
+    margin-top: -100px;
+    margin-bottom: 50px;
+
+  }
+  
+
+  .fixed-bar {
+
+    background-color: #F4590F;
+    height: 60px;
+
+    .row-buttons {
+      height: 100%;
+
+      button {
+
+        border-radius: 22px;
+        height: 45px;
+        border: none;
+        font-family: 'GothamBd';
+        width: 100%;
+        font-size: 15px;
+  
+        &.form-into-view-btn {
+          background-color: #fff;
+          color: #F4590F;
+  
+        }
+    
+        &.chat-btn {
+          color: #fff;
+          background-color: transparent;
+          border: 1px solid #fff;
+        }
+
+      }
+    }
+    
+  }
+
+  .siempre-puedes-empezar-section {
+
+    margin-bottom: 80px;
+
+    .section-header {
+      margin-top: 20px;
+    }
+
+    .section-description {
+      margin: 0;
+    }
+    
+    .section-description-2 {
+      text-align: center;
+      padding-top: 50px;
+    }
+
+    .container-space-inbetween-animation {
+
+      height: 80vh;
+  
+      .animation-container {
+  
+        height: 390px;
+  
+        .container-img {
+          width: 100%;
+          height: 300px;
+          background-size: 250px;
+          background-repeat: no-repeat;
+          position: absolute;
+    
+          &.container-img-right {
+            right: 0;
+          }
+    
+          &.container-img-left {
+            z-index: 10;
+            background-position-y: 80px;
+          }
+        }
+      }
+      
+    }
+  }
+
+  .testimonios-section {
+
+    margin-bottom: 50px;
+
+    .modal.testimonio-video-modal {
+      .modal-dialog {
+        .modal-content {
+
+          background: none;
+          border: none;
+
+          .modal-header {
+            border: none;
+          }
+
+          .modal-body {
+            padding: 0;
+
+            .testimonio-video {
+              width: fit-content;
+              display: block;
+              margin: 0 auto;
+              border-radius: 10px;
+            }
+          }
+          
+        }
+      }
+    }
+
+    
+
+    .card-testimonio {
+
+      width: 80%;
+      display: block;
+      margin: 10px auto;
+      background: #fff;
+
+      border-radius: 10px;
+
+      -webkit-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.09);
+      -moz-box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.09);
+      box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.09);
+      padding: 10px;
+  
+      .testimonio-img {
+        width: 120px;
+        height: 120px;
+        border-radius: 100%;
+        display: block;
+        margin: 20px auto;
+        border-color: #F15A24;
+        border-width: 3px;
+        border-style: solid;
+        background-size: contain;
+        background-position: center;
+
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(49,170,95,0.4);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(49,170,95,0.4);
+        box-shadow: 0px 0px 10px 0px rgba(49,170,95,0.4);
+
+      }
+
+      .testimonio-name {
+        color: #F15A24;
+        font-family: 'GothamBd';
+        font-size: 1rem;
+        text-align: center;
+        margin: 0;
+      }
+  
+      .testimonio-text {
+        line-height: 17px;
+        font-family: 'HelveticaLt';
+        font-style: italic;
+        color: #747474;
+        font-size: 0.9rem;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        margin-bottom: 20px;
+      }
+
+      .testimonio-video-btn {
+        height: 36px;
+        background-color: #31AA5F;
+        color: #fff;
+        border: none;
+        border-radius: 22px;
+        font-family: 'GothamBd';
+        font-size: 0.9rem;
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        line-height: 1;
+
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(49,170,95,0.4);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(49,170,95,0.4);
+        box-shadow: 0px 0px 3px 0px rgba(49,170,95,0.4);
+      }
+    }
+  }
+
+  .modelo-educativo-section {
+
+    height: 200vh;
+
+    .row-modelo-educativo-section {
+      height: 200vh;
+    }
+
+    .animation-container {
+      height: 100vh;
+      padding-top: 15px;
+    }
+
+    .animation-row {
+      position: absolute;
+    }
+
+    .section-header {
+      margin-bottom: 30px;
+    }
+
+    .modelo-educativo-sub-section {
+
+      margin-bottom: 15vh;
+  
+      .sub-section-header {
+        font-family: 'GothamBd';
+        font-size: 1rem;
+        width: fit-content;
+        padding: 8px 0;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 12px;
+
+        &.section-header-orange {
+          color: #F15A24;
+          border-bottom: 1px solid #F15A24;
+          border-top: 1px solid #F15A24;
+        }
+
+        &.section-header-green {
+          color: #28AB5C;
+          border-bottom: 1px solid #28AB5C;
+          border-top: 1px solid #28AB5C;
+        }
+      }
+
+      .sub-section-img {
+        display: block;
+        margin: 0 auto;
+        width: 83%;
+      }
+  
+      .sub-section-description {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        height: 20vh;
+      }
+    }
+    
+  }
+
+  .tutorias-section {
+
+    .tutorias-description {
+      margin-bottom: 25px;
+    }
+
+    .tutorias-img {
+      width: 100%;
+    }
+  }
+
+  .el-tiempo-es-tuyo-section {
+
+    background-color: #d6e6be;
+    height: 50vh;
+
+    .section-header {
+      color: #F15A24;
+      text-shadow: 0px 1px 6px rgba(129,204,71,0.15);
+      text-align: center;
+    }
+  }
+
+  .clock-animation-section {
+
+    margin-bottom: 20px;
+
+    .row-clock-animation-text {
+
+      height: 70vh;
+
+      .clock-animation-text {
+        width: 60%;
+        float: right;
+        margin: 0;
+      }
+  
+      .clock-animation-img {
+        position: absolute;
+        height: 60vh;
+      }
+    }
+  }
+
+  .mas-que-matematicas-section {
+
+    .mas-que-matematicas-img {
+      width: 100%;
+    }
+  }
+
+  .desde-cualquier-lugar-section {
+
+    margin-bottom: 20px;
+
+    .desde-cualquier-lugar-img {
+      width: 100%;
+    }
+  }
+
+  .seguimiento-section {
+
+    padding-top: 10vh;
+    
+    .seguimiento-gallery-img {
+      width: 100%;
+    }
+
+    .col-gallery-1 {
+      padding-right: 3px;
+
+    }
+
+    .col-gallery-2 {
+      padding-left: 3px;
+    }
+
+    .col-gallery-img-2 {
+      padding-bottom: 6px;
+    }
+
+  }
+
+  .territorio-section {
+
+    margin-bottom: 25px;
+
+    .col-territorio-text {
+      padding-right: 0;
+    }
+
+    .col-territorio-img {
+      padding: 0;
+      overflow: hidden;
+    }
+  }
+
+  .resultados-saber-pro-section {
+    margin-bottom: 15px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .equipo-section {
+
+    padding-top: 10vh;
+
+    .equipo-img {
+      width: 100%;
+    }
+
+  }
+
+  .clock-animation-container {
+    height: 150vh;
+
+    .section-header {
+      color: #F15A24;
+      text-align: center;
+    }
+
+    .clock-animation-img-container {
+      height: 100vh; 
+      width: 100%; 
+      background-image: url('/COV2/assets/img/imgReloj2.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 2000px;
+
+      .clock-animation-content {
+        height: 100%; 
+        width: 100%;
+
+        .clock-animation-title {
+          padding-top: 40vh;
+
+          .section-header {
+            font-size: 3.5rem;
+            color: #fff;
+            text-shadow: 0px 9px 12px rgba($color: #000000, $alpha: 0.24);
+            margin: 0;
+          }
+        }
+  
+        .clock-animation-text-container {
+          position: absolute; 
+          top: 40px;
+          width: 100%; 
+          opacity: 0;
+
+          .clock-animation-text {
+            padding: 0 10%;
+          }
+        }
+      }
+
+      
+    }
+  }
+
+  .presencia-regional-section {
+
+    .col-sub-section {
+
+      display: flex;
+      height: 120vh;
+      align-items: center ;
+
+      &.col-total-hours {
+        background-image: url('/COV2/assets/img/textura.png');
+        background-color: #323232;
+        background-size: contain;
+        background-repeat: repeat;
+      }
+
+      .presencia-regional-sub-section {
+        
+        padding: 10vh 0;
+        width: 100%;
+  
+        &.total-hours {
+
+          padding: 30px 0;
+          
+          .presencia-regional-separador {
+            width: 60%;
+            height: 1px;
+            background-color: #fff;
+            margin: 25px auto;
+          }
+          .section-header {
+            color: #fff;
+          }
+
+          .presencia-regional-sub-section-img {
+            height: 60px;
+          }
+    
+          .presencia-regional-sub-section-number {
+            font-size: 3rem;
+          }
+    
+          .presencia-regional-sub-section-text {
+            font-size: 1rem;
+            margin: 0;
+          }
+  
+          p { 
+            color: #fff;
+          }
+        }
+  
+        p {
+          margin-bottom: 10px;
+          text-align: center;
+        }
+  
+        .presencia-regional-sub-section-img {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 20px;
+        }
+  
+        .presencia-regional-sub-section-number {
+          color: #31AA5F;
+          font-family: 'GothamBl';
+          font-size: 4rem;
+          line-height: 1;
+        }
+  
+        .presencia-regional-sub-section-text {
+          color: #31AA5F;
+          font-family: 'GothamMd';
+          font-size: 1.25rem;
+        }
+      }
+    }
+
+  }
+  
+  .comunidad-section {
+
+    padding-bottom: 10vh;
+
+    .comunidad-gallery {
+
+      margin-bottom: 35px;
+
+      .comunidad-gallerry-img {
+        border-radius: 10px;
+        width: 90%;
+        display: block;
+        margin: 10px auto;
+      }
+    }
+
+    p {
+      font-size: 0.9rem;
+      line-height: 17px;
+      text-align: center;
+    }
+  }
+
+  .imgAnimationContainer {
+    height: fit-content;
+    overflow: hidden;
+
+    display: block;
+    margin: 0 auto;
+  }
+  
+}
